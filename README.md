@@ -4,34 +4,34 @@ Criando um sistema CRUD de notícias.
 
 ## Tela de login do admin:
 <p align="center" >
-    <img src="admin/src/assets/login.png" width="50%" height="40%">
+    <img src="admin/src/assets/login.PNG" width="50%" height="40%">
 </p>
 
 ---
 
 ## Tela de listagem das notícias:
 <p align="center" >
-    <img src="admin/src/assets/home.png" width="60%" height="40%">
+    <img src="admin/src/assets/home.PNG" width="60%" height="40%">
 </p>
 
 ---
 ## Tela de criação de notícia:
 <p align="center" >
-    <img src="admin/src/assets/create.png" width="60%" height="40%">
+    <img src="admin/src/assets/create.PNG" width="60%" height="40%">
 
 </p>
 
 ---
 ## Tela de listagem de uma notícia específica:
 <p align="center" >
-    <img src="admin/src/assets/single-new.png" width="60%" height="40%">
+    <img src="admin/src/assets/single-new.PNG" width="60%" height="40%">
 
 </p>
 
 ---
 ## Tela de edição de uma notícia:
 <p align="center" >
-    <img src="admin/src/assets/edit.png" width="60%" height="40%">
+    <img src="admin/src/assets/edit.PNG" width="60%" height="40%">
 </p>
 
 
