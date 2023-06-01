@@ -1,0 +1,60 @@
+.container {
+  display: flex;
+  width: 100%;
+
+.singleContainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex: 6;
+
+  .top{
+
+      .editButton {
+        border: none;
+        padding: 10px 20px;
+        background-color: #0071c2;
+        color: white;
+        font-weight: bold;
+        cursor: pointer;
+        border-radius: 5px;
+      }
+  }
+
+  .mainContent{
+    -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+      box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+      padding: 10px;
+      margin: 20px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 50px;
+      width: 50vw;
+
+      input{
+        width: 700px;
+        height: 30px;
+        padding: 10px;  
+      }
+
+      textarea{
+        width: 700px;
+        height: 300px;
+        padding: 10px;
+      }
+  }
+
+  .updateButton {
+    border: none;
+    padding: 10px 20px;
+    background-color: #0071c2;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+} 
+}
