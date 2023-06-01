@@ -25,20 +25,19 @@ const New = () => {
     <div className="new">
       <Sidebar />
       <div className="newContainer">
-        <div className="top"></div>
-        <div className="bottom">
-          <div className="right">
+      <h1>Crie sua notícia</h1>
+          <div className="mainContent">
             <form onSubmit={handleSubmit}>
               <input
                 type="text"
-                placeholder="Title"
+                placeholder="Título"
                 className="writeInput"
                 autoFocus={true}
                 onChange={(e) => setTitle(e.target.value)}
               />
               <div className="writeFormGroup">
                 <textarea
-                  placeholder="Tell your story..."
+                  placeholder="Conteúdo"
                   type="text"
                   className="writeInput writeText"
                   onChange={(e) => setContent(e.target.value)}
@@ -48,7 +47,6 @@ const New = () => {
                 Criar
               </button>
             </form>
-          </div>
         </div>
       </div>
     </div>

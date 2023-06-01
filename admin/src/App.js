@@ -4,13 +4,10 @@ import List from "./pages/list/List";
 import Single from "./pages/single/Single";
 import New from "./pages/new/New";
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
-import "./style/dark.scss";
 import { useContext } from "react";
-import { DarkModeContext } from "./context/darkModeContext";
 import { AuthContext } from "./context/AuthContext";
 
 function App() {
-  const { darkMode } = useContext(DarkModeContext);
 
   const ProtectedRoute = ({ children }) => {
     const { user } = useContext(AuthContext);
@@ -23,7 +20,7 @@ function App() {
   };
 
   return (
-    <div className={darkMode ? "app dark" : "app"}>
+    <div>
       <BrowserRouter>
         <Routes>
           <Route path="/">

@@ -35,8 +35,10 @@ export default function SinglePost() {
 
   return (
     <div className="container">
-      <Sidebar/>
-    <div className="singleContainer">
+      <Sidebar />
+      <div className="singleContainer">
+        {updateMode ? <h1>Edite sua notícia</h1> : <></>}
+
         <div className="mainContent">
           {updateMode ? (
             <input
@@ -58,22 +60,24 @@ export default function SinglePost() {
           ) : (
             <p className="singlePostDesc">{content}</p>
           )}
-          {updateMode ? (<></>):(
+          {updateMode ? (
+            <></>
+          ) : (
             <button
               className="updateButton"
               onClick={() => setUpdateMode(true)}
             >
               EDITAR
             </button>
-            )}
-            
+          )}
+
           {updateMode && (
             <button className="updateButton" onClick={handleUpdate}>
-              Update
+              Atualizar
             </button>
           )}
         </div>
-    </div>
+      </div>
     </div>
   );
 }

@@ -13,6 +13,7 @@ const Datatable = ({ columns }) => {
 
   useEffect(() => {
     setList(data);
+    new Date(data.createdAt).toDateString()
   }, [data]);
 
   const handleDelete = async (id) => {

@@ -1,3 +1,4 @@
+
 export const userColumns = [
   {
     field: "title",
@@ -7,10 +8,10 @@ export const userColumns = [
   {
     field: "content",
     headerName: "Conteúdo",
-    width: 600,
+    width: 550,
   },
   {
-    field: "time",
+    field:"time",
     headerName: "Data",
     width: 250,
   },
