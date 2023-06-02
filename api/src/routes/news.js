@@ -7,6 +7,7 @@ import {
     updateNew 
 } from "../controllers/newController.js";
 import { verifyAdmin } from "../utils/verifyToken.js";
+
 const router = express.Router();
 
 router.post("/", createNew);
